@@ -1,4 +1,7 @@
+#include <stdio.h>
 #include <fcntl.h>
+#include <unistd.h>
+#include <stdlib.h>
 int main() {
     int fd, sz;
     char *buf = (char *) calloc(20, sizeof(char));
